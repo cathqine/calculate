@@ -3,7 +3,7 @@
 
 int main (void) {
   
-  char *string = ["Y", "e", "s", "\n"];
+  char *string = ["Y", "e", "s", "\0"];
 
   printf("Welcome to Calculator.\n");
   printf("Do you wish to use the calculator to calculate the opportunity cost?\n");
